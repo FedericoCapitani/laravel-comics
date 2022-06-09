@@ -10233,3 +10233,47 @@ textarea.form-control-lg {
   padding: 0;
   box-sizing: border-box;
 }
+
+#site_header .top {
+  background-color: #0282f9;
+}
+#site_header .top p {
+  margin: 0;
+  padding: 10px 0;
+  color: white;
+  padding-left: 2rem;
+  font-weight: 700;
+}
+#site_header nav {
+  padding: 1rem 0;
+}
+#site_header nav a {
+  align-self: center;
+  font-weight: 600;
+  color: #303030;
+}
+#site_header nav a:hover {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+  margin-bottom: -3px;
+}
+#site_header nav .margin_tb_2 {
+  margin: 2rem 0;
+}
+
+.jumbotron {
+  max-height: 500px;
+  overflow: hidden;
+}
+.jumbotron img {
+  width: 100%;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.bg_main {
+  background-color: #1c1c1c;
+}
+.bg_main p {
+  color: white;
+}
