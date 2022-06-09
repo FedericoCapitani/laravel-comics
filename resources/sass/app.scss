@@ -1,7 +1,20 @@
 @use 'bootstrap';
 
+// color palette
+$dc-primary: #0282f9;
+$dc-main-bg: #1c1c1c;
+$dc-footer: #303030;
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#site_header{
+    max-width: 1440px;
+    margin: 0 auto;
+    .top{
+        background-color: red;
+    }
 }
