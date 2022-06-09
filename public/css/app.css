@@ -10276,4 +10276,8 @@ textarea.form-control-lg {
 }
 .bg_main p {
   color: white;
+  padding-left: 1rem;
+}
+.bg_main .p_1 {
+  padding: 1rem;
 }

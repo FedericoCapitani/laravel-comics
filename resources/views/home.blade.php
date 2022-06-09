@@ -10,7 +10,7 @@
         <div class="row">
             @foreach($comics as $comic)
             <div class="col-2">
-                <img src="{{$comic['thumb']}}" alt="">
+                <img src="{{$comic['thumb']}}" alt="" class="p_1">
                 <p> {{$comic['series']}} </p>
             </div>
             @endforeach
