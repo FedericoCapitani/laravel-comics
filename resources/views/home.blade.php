@@ -8,58 +8,13 @@
 <div class="bg_main">
     <div class="container">
         <div class="row">
+            @foreach($comics as $comic)
             <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
+                <img src="{{$comic['thumb']}}" alt="">
+                <p> {{$comic['series']}} </p>
             </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
+            @endforeach
         </div>
-        <div class="row">
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
-            <div class="col-2">
-                <img src="{{asset('img/')}}" alt="">
-                <p>ACTION COMICS</p>
-            </div>
     </div>
-</div>
-
 </div>
 @endsection
