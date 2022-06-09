@@ -52,8 +52,18 @@ $dc-footer: #303030;
     p{
         color: white;
         padding-left: 1rem;
+        padding-top: 1rem;
     }
-    .p_1{
-        padding: 1rem;
+    .h_200{
+        max-height: 200px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+        .p_1{
+            padding: 1rem;
+        }
     }
 }

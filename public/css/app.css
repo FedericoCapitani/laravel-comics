@@ -10277,7 +10277,19 @@ textarea.form-control-lg {
 .bg_main p {
   color: white;
   padding-left: 1rem;
+  padding-top: 1rem;
 }
-.bg_main .p_1 {
+.bg_main .h_200 {
+  max-height: 200px;
+  overflow: hidden;
+}
+.bg_main .h_200 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.bg_main .h_200 .p_1 {
   padding: 1rem;
 }
