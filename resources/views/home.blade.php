@@ -1,10 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="jumbotron">
-    <img src="{{asset('img/jumbotron.jpg')}}" alt="">
-</div>
-
 <div class="bg_main">
     <div class="container">
         <div class="row">
