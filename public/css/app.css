@@ -10273,6 +10273,15 @@ textarea.form-control-lg {
 
 .bg_main {
   background-color: #1c1c1c;
+  position: relative;
+}
+.bg_main .current_series {
+  position: absolute;
+  background-color: #0282f9;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  top: -30px;
 }
 .bg_main p {
   color: white;
@@ -10292,4 +10301,30 @@ textarea.form-control-lg {
 }
 .bg_main .h_200 .p_1 {
   padding: 1rem;
+}
+.bg_main .load_more {
+  background-color: #0282f9;
+  text-align: center;
+}
+.bg_main .load_more a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bg_primary {
+  background-color: #0282f9;
+}
+.bg_primary .col_custom_5 {
+  width: 20%;
+  align-items: center;
+}
+.bg_primary .col_custom_5 p {
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 1rem;
+}
+.bg_primary .col_custom_5 img {
+  height: 50%;
 }

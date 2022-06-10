@@ -49,6 +49,15 @@ $dc-footer: #303030;
 }
 .bg_main{
     background-color: $dc-main-bg;
+    position: relative;
+    .current_series{
+        position: absolute;
+        background-color: $dc-primary;
+        color: white;
+        font-weight: 600;
+        font-size: 2rem;
+        top: -30px;
+    }
     p{
         color: white;
         padding-left: 1rem;
@@ -64,6 +73,31 @@ $dc-footer: #303030;
         }
         .p_1{
             padding: 1rem;
+        }
+    }
+    .load_more{
+        background-color: $dc-primary;
+        text-align: center;
+        a{
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+}
+.bg_primary{
+    background-color: $dc-primary;
+    .col_custom_5{
+        width: calc(100% / 5);
+        align-items: center;
+        p{
+            color: white;
+            font-weight: 600;
+            margin: 0;
+            padding-left: 1rem;
+        }
+        img{
+            height: 50%;
         }
     }
 }
