@@ -10328,3 +10328,54 @@ textarea.form-control-lg {
 .bg_primary .col_custom_5 img {
   height: 50%;
 }
+
+footer .bg_footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+}
+footer .bg_footer a {
+  text-decoration: none;
+  display: block;
+}
+footer .bg_footer .footer_link {
+  color: #7c7c7c;
+}
+footer .bg_footer .footer_link_blue {
+  color: #0282f9;
+  display: inline;
+}
+footer .bg_footer h2 {
+  color: white;
+}
+footer .bg_footer .grey_text {
+  color: #7c7c7c;
+}
+footer .bg_footer .footer_logo {
+  background-image: url("/img/dc-logo-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 650px;
+  height: 100%;
+}
+footer .bg_footer .max_h_550 {
+  height: 550px;
+}
+footer .footer_bottom {
+  background-color: #303030;
+}
+footer .footer_bottom .sign_up_btn {
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  border: 2px solid #0282f9;
+  font-size: 1.4rem;
+}
+footer .footer_bottom .footer_socials {
+  align-items: center;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+footer .footer_bottom .footer_socials .follow_us {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
