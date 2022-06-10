@@ -10364,6 +10364,31 @@ textarea.form-control-lg {
   color: white;
 }
 
+.descriptions {
+  font-weight: 600;
+}
+.descriptions .title {
+  color: #003f5e;
+}
+.descriptions p {
+  margin: 0;
+}
+.descriptions .white_text {
+  color: white;
+  padding: 1rem;
+}
+.descriptions .price > span, .descriptions .status {
+  color: #a9fb9a;
+  padding: 1rem;
+}
+.descriptions .price_container {
+  background-color: #55ba59;
+  border: 1px solid #003f5e;
+}
+.descriptions .pad_l_7 {
+  padding-left: 7rem;
+}
+
 .links_collection {
   background-color: #f6f6f6;
   border: 1px solid gray;

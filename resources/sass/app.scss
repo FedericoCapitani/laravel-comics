@@ -6,6 +6,9 @@ $dc-main-bg: #1c1c1c;
 $dc-footer: #303030;
 $dc-lightgray: #7c7c7c;
 $dc-white: #f6f6f6;
+$dc-green: #55ba59;
+$dc-light-green: #a9fb9a;
+$dc-comic-title: #003f5e;
 
 *{
     margin: 0;
@@ -135,6 +138,30 @@ $dc-white: #f6f6f6;
                 color: white;
             }
         }
+    }
+}
+.descriptions{
+    font-weight: 600;
+    .title{
+        color: $dc-comic-title;
+    }
+    p{
+        margin: 0;
+    }
+    .white_text{
+        color: white;
+        padding: 1rem;
+    }
+    .price>span, .status{
+        color: $dc-light-green;
+        padding: 1rem;
+    }
+    .price_container{
+        background-color: $dc-green;
+        border: 1px solid $dc-comic-title;
+    }
+    .pad_l_7{
+        padding-left: 7rem;
     }
 }
 .links_collection{
