@@ -164,6 +164,23 @@ $dc-comic-title: #003f5e;
         padding-left: 7rem;
     }
 }
+.infos{
+    background-color: $dc-white;
+    border-top: 1px solid gray;
+    .blue_text{
+        color: $dc-comic-title;
+    }
+    .light_blue_text{
+        color: #02c8f9;
+    }
+    .border_y_info{
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    .border_bot_info{
+        border-bottom: 1px solid lightgray;
+    }
+}
 .links_collection{
     background-color: $dc-white;
     border: 1px solid gray;

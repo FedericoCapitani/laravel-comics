@@ -10389,6 +10389,24 @@ textarea.form-control-lg {
   padding-left: 7rem;
 }
 
+.infos {
+  background-color: #f6f6f6;
+  border-top: 1px solid gray;
+}
+.infos .blue_text {
+  color: #003f5e;
+}
+.infos .light_blue_text {
+  color: #02c8f9;
+}
+.infos .border_y_info {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.infos .border_bot_info {
+  border-bottom: 1px solid lightgray;
+}
+
 .links_collection {
   background-color: #f6f6f6;
   border: 1px solid gray;

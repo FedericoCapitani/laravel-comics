@@ -17,7 +17,7 @@
             <div class="row py-4">
                 <div class="col-8 d-flex justify-content-between price_container">
                     <div class="price white_text"> <span>U.S. Price: </span> {{$comic['price']}} </div>
-                    <div class="status">Available</div>
+                    <div class="status text-uppercase">Available</div>
                 </div>
                 <div class="col-4 text-center price_container">
                     <p class="white_text">Check Availability</p>
@@ -31,8 +31,57 @@
         </div>
     </div>
 </div>
-<div class="infos">
-
+<div class="infos py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="blue_text">Talent</h3>
+                <div class="row border_y_info">
+                    <div class="col-4">
+                        <p class="blue_text">Art by:</p>
+                    </div>
+                    <div class="col-8">
+                        @foreach ($comic['artists'] as $artist)
+                        <span class="light_blue_text"> {{$artist}} </span>
+                        @endforeach
+                    </div>
+                </div>
+                <div class="row border_bot_info">
+                    <div class="col-4">
+                        <p class="blue_text">Written by:</p>
+                    </div>
+                    <div class="col-8">
+                        @foreach ($comic['writers'] as $writer)
+                        <span class="light_blue_text"> {{$writer}} </span>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <h3 class="blue_text">Specs</h3>
+                <div class="row border_y_info">
+                    <div class="col-4">
+                        <p class="blue_text">Series:</p>
+                    </div>
+                    <div class="col-8">
+                        <p class="light_blue_text text-uppercase"> {{$comic['series']}} </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <p class="blue_text">U.S. Price:</p>
+                    </div>
+                    <div class="col-8"> {{$comic['price']}} </div>
+                </div>
+                <div class="row border_y_info">
+                    <div class="col-4">
+                        <p class="blue_text">On Sale Date:</p>
+                    </div>
+                    <div class="col-8"> {{$comic['sale_date']}} </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="links_collection">
     <div class="container">
