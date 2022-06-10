@@ -7,12 +7,14 @@
             CURRENT SERIES
         </div>
         <div class="row">
-            @foreach($comics as $comic)
+            @foreach($comics as $index => $comic)
             <div class="col-2">
-                <div class="h_200">
-                    <img src="{{$comic['thumb']}}" alt="" class="p_1 h_150">
-                </div>
-                <p> {{$comic['series']}} </p>
+                <a href="{{route('comics', $index)}}">
+                    <div class="h_200">
+                        <img src="{{$comic['thumb']}}" alt="" class="p_1 h_150">
+                    </div>
+                    <p> {{$comic['series']}} </p>
+                </a>
             </div>
             @endforeach
         </div>

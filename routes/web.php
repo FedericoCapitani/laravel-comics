@@ -18,7 +18,18 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('home');
 
-Route::get('/comics', function () {
+Route::get('comics', function () {
+    $comics = config('db.comics');
+    return view('home', compact('comics'));
+})->name('comics');
 
-    return view('comics');
+Route::get('/comics/{id}', function ($id) {
+    $comics = config('db.comics');
+    if ($id >= 0 && is_numeric($id) && $id < count($comics)) {
+        $comic = $comics[$id];
+        // dd($id);
+        return view('comics', compact('comic'));
+    }else{
+        abort(404);
+    }
 })->name('comics');

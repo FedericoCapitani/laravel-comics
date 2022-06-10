@@ -5,6 +5,7 @@ $dc-primary: #0282f9;
 $dc-main-bg: #1c1c1c;
 $dc-footer: #303030;
 $dc-lightgray: #7c7c7c;
+$dc-white: #f6f6f6;
 
 *{
     margin: 0;
@@ -59,6 +60,9 @@ $dc-lightgray: #7c7c7c;
         font-size: 2rem;
         top: -30px;
     }
+    a{
+        text-decoration: none;
+    }
     p{
         color: white;
         padding-left: 1rem;
@@ -100,6 +104,47 @@ $dc-lightgray: #7c7c7c;
         img{
             height: 50%;
         }
+    }
+}
+.comic_thumb{
+    min-height: 70px;
+    background-color: $dc-primary;
+    position: relative;
+    .thumb_container{
+        position: absolute;
+        bottom: 20px;
+        border: 1px solid white;
+        p{
+            margin: 0;
+        }
+        .thumb_text{
+            color: white;
+            position: absolute;
+            background-color: $dc-primary;
+            padding: 5px;
+            bottom: calc(291px - 34px);
+        }
+        .thumb_link{
+            position: absolute;
+            background-color: $dc-primary;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+.links_collection{
+    background-color: $dc-white;
+    border: 1px solid gray;
+    .br_l{
+        border-left: 1px solid gray;
+    }
+    .br_r{
+        border-right: 1px solid gray;
     }
 }
 footer{
